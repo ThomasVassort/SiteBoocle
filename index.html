@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boocle</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Page d'accueil (Hero section) -->
+    <header>
+        <div class="hero">
+            <video src="video_de_couverture.mp4" autoplay muted loop></video>
+            <h1>Boocle - L'avant-garde de la communication digitale</h1>
+            <a href="#" class="cta">En savoir plus</a>
+        </div>
+    </header>
+
+    <!-- À propos de Boocle -->
+    <section id="about">
+        <h2>À propos de Boocle</h2>
+        <p>Boocle révolutionne la communication digitale grâce à sa boucle vidéo brevetée offrant une expérience immersive unique pour les publicités en ligne, écrans DOOH et installations artistiques. Notre technologie fluide crée un visionnage hypnotique, renforçant l'engagement des marques et captivant les audiences. Rejoignez l'ère Boocle pour vous démarquer dans l'univers numérique en constante évolution.</p>
+        <img src="image_histoire.jpg" alt="Histoire de Boocle">
+    </section>
+
+    <!-- Nos créations -->
+    <section id="creations">
+        <h2>Nos créations</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/q2FKaASoNIY" frameborder="0" allowfullscreen></iframe>
+            <p>8s Loop vidoe</p>
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/E5tuj9xciYE" frameborder="0" allowfullscreen></iframe>
+            <p>30s Loop video</p>
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MA2bGulFIgw" frameborder="0" allowfullscreen></iframe>
+            <p>60s Loop video</p>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+        <h2>Services</h2>
+        <!-- Répétez cette structure pour chaque service -->
+        <div class="service">
+            <img src="photo1.png" alt="Icône du service">
+            <h3>Service 1</h3>
+            <p>Campagnes publicitaires</p>
+        </div>
+        <div class="service">
+            <img src="photo2.png" alt="Icône du service">
+            <h3>Service 1</h3>
+            <p>Affichage dynamique extérieur (DOOH)/p>
+        </div>
+        <div class="service">
+            <img src="photo3.png" alt="Icône du service">
+            <h3>Service 1</h3>
+            <p>Installations artistiques</p>
+        </div>
+    </section>
+
+    <!-- Équipe -->
+    <section id="team">
+        <h2>Équipe</h2>
+        <div class="member">
+            <img src="tv.jpg" alt="Portrait du fondateur">
+            <h3>Thomas Vassort</h3>
+            <p>Thomas Vassort, 43 ans, cumule 25 années d'expérience en communication. Ex-photographe de mode, il crée l'algorithme Boocle et fonde sa start-up après une formation en entrepreneuriat. « La vie est trop courte pour être monolithique, je veux la surprendre là où elle
+            est, quel que soit son terrain de jeu »/p>
+            <a href="https://www.linkedin.com/company/boocle-communication/" target="_blank">LinkedIn</a>
+            <a href="https://www.youtube.com/channel/UCEFhOROrRHN4dAUCIDO1NZw" target="_blank">YouTube</a>
+                        <a href="https://www.instagram.com/boocle_communication/" target="_blank">Instagram</a>
+            <a href="https://www.tiktok.com/@boocle" target="_blank">TikTok</a>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="traitement_formulaire.php" method="POST">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+        <div class="contact-info">
+            <p>Email : thomas.vassort@boocle.io</p>
+            <p>Téléphone : +33 6 15 88 52 24</p>
+            <p>Adresse : Paris, France</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="#">Accueil</a>
+            <a href="#about">À propos</a>
+            <a href="#creations">Nos créations</a>
+            <a href="#services">Services</a>
+            <a href="#team">Équipe</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/company/boocle-communication/" target="_blank">LinkedIn</a>
+            <a href="https://www.youtube.com/channel/UCEFhOROrRHN4dAUCIDO1NZw" target="_blank">YouTube</a>
+            <a href="https://www.instagram.com/boocle_communication/" target="_blank">Instagram</a>
+            <a href="https://www.tiktok.com/@boocle_communication" target="_blank">TikTok</a>
+        </div>
+        <div class="newsletter">
+            <form action="inscription_newsletter.php" method="POST">
+                <label for="newsletter-email">Inscrivez-vous à notre newsletter :</label>
+                <input type="email" id="newsletter-email" name="email" required>
+                <button type="submit">S'inscrire</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
+
