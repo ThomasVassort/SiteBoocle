@@ -1,0 +1,484 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Police d'écriture générale */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.hero {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url("video_de_couverture.jpg") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.cta {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+/* Sections */
+section {
+    padding: 4rem 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Créations */
+.video-container {
+    margin-bottom: 2rem;
+}
+
+/* Services */
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.service img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+/* Équipe */
+.member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+/* Contact */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+label, input, textarea {
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.footer-links, .social-links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Police d'écriture générale */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.hero {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url("video_de_couverture.jpg") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.cta {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+/* Sections */
+section {
+    padding: 4rem 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Créations */
+.video-container {
+    margin-bottom: 2rem;
+}
+
+/* Services */
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.service img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+/* Équipe */
+.member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+/* Contact */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+label, input, textarea {
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.footer-links, .social-links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Police d'écriture générale */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.hero {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url("video_de_couverture.jpg") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.cta {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+/* Sections */
+section {
+    padding: 4rem 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Créations */
+.video-container {
+    margin-bottom: 2rem;
+}
+
+/* Services */
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.service img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+/* Équipe */
+.member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+/* Contact */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+label, input, textarea {
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.footer-links, .social-links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Police d'écriture générale */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.hero {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url("video_de_couverture.jpg") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.cta {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+/* Sections */
+section {
+    padding: 4rem 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Créations */
+.video-container {
+    margin-bottom: 2rem;
+}
+
+/* Services */
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.service img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+/* Équipe */
+.member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+/* Contact */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+label, input, textarea {
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.footer-links, .social-links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
